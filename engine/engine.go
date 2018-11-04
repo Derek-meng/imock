@@ -2,7 +2,7 @@ package engine
 
 import (
 	"log"
-	"news/fetcher"
+	"imock/fetcher"
 )
 
 func Run(seeds ... Request)  {

@@ -2,7 +2,7 @@ package parser
 
 import (
 	"fmt"
-	"news/engine"
+	"imock/engine"
 	"regexp"
 )
 
