@@ -1,12 +1,12 @@
 package main
 
 import (
-	. "news/engine"
-	"news/zhenai/parser"
+	"imock/engine"
+	"imock/zhenai/parser"
 )
 
 func main() {
-	Run(Request{
+	engine.Run(engine.Request{
 		Url:        "http://www.zhenai.com/zhenghun",
 		ParserFunc: parser.ParseCityList,
 	})
