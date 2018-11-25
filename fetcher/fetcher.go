@@ -12,7 +12,7 @@ import (
 	"net/http"
 )
 
-func Fetch(url string) ([]byte,error) {
+func  Fetch(url string) ([]byte,error) {
 	//https://www.yicai.com/
 	//http://www.zhenai.com/zhenghun
 	resp, err := http.Get(url)
